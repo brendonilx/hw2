@@ -1,0 +1,129 @@
+/*
+File: pacfic.css
+GUI Assignment: Style a site with external css
+Brendon So, UMass Lowell Computer Science, brendon_so@student.uml.edu
+Copyright (c) 2021 by Brendon So.
+
+*/
+
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	background-image: url("images/ptrbackground.jpg");
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #00569f;
+	background-repeat: repeat-x;
+	padding-bottom: 100px;
+	max-height: 600px;
+}
+
+#wrapper {
+	background-color: white;
+	width: 80%;
+	min-width: 600px;
+	margin: auto;
+}
+
+nav {
+	float: left;
+	margin-right: 20px;
+	background-color: #6cbcd5;
+	height:900px;
+	/*
+		I tried many I give up, it wouldnt even work with 100% height or other methods for borders.
+	*/
+}
+
+#content {
+	margin: 10px;
+}
+nav ul {
+	list-style-type: none;
+	margin: 20px;
+	list-style-image: none;
+	padding-left: 10px;
+	padding-right:40px;
+
+}
+
+
+ul {
+	margin-left:225px;
+	list-style-image: url("images/marker.gif");
+	background-repeat: no-repeat;
+}
+
+ul li {
+	padding: 1px;
+
+}
+
+li a {
+	display: block;
+	padding: 0px;
+	font-weight: bold;
+	font-weight: 900;
+	text-decoration: none;
+	color:#000033;
+}
+
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+	color: white;
+	background-image: url("images/sunset.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+h2 {
+	color: #3399CC;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+dt {
+	color: #000033;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	font-size:12px;
+}
+
+.resort {
+	color:#6f8bd9;
+	font-weight: bold;
+}
+/* so text is right side of image
+	https://www.shecodes.io/athena/37856-how-to-move-text-to-the-right-side-of-an-image-with-css#:~:text=In%20this%20example%2C%20float%3A%20left,right%20side%20of%20the%20image.
+*/
+
+.column {
+	float: left;
+	padding-left: 10px;
+}
+
+#content {
+	margin-left: 15px;
+}
+#contact {
+	margin-left: 225px;
+	margin-bottom: 60px;
+}
+
+img {
+	float: left;
+	margin-right: 20px;
+}
